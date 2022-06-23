@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "firebase-admin": "^10.3.0",
+    "firebase-functions": "^3.21.2",
+    "nuxt": "3.0.0-rc.4"
+  },
+  "name": "nuxt-app",
+  "description": "Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecateball/nitro-firebase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hecateball/nitro-firebase/issues"
+  },
+  "homepage": "https://github.com/hecateball/nitro-firebase#readme"
+}

@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "packages/nuxt-app/.output/public",
+    "cleanUrl": true,
+    "rewrites":[
+      {"source":"**","function":"server"}
+    ]
+  },
+  "functions": { "source": "packages/nuxt-app/.output/server" }
+}

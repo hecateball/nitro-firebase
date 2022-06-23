@@ -1,0 +1,22 @@
+{
+  "name": "nitro-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecateball/nitro-firebase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hecateball/nitro-firebase/issues"
+  },
+  "homepage": "https://github.com/hecateball/nitro-firebase#readme",
+  "workspaces": [
+    "packages/nuxt-app"
+  ]
+}
